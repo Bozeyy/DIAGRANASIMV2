@@ -1,0 +1,100 @@
+#visual {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f3f30c;
+    border-radius: 15px;
+    height: 10%;
+    align-items: center;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+.logo {
+    margin-left: 2em;
+}
+
+header nav {
+    margin-right: 2em;
+}
+
+header nav a {
+    margin: 0 1em;
+    color: #f3f3f3;
+    text-decoration: none;
+}   
+
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+}
+
+.choice {
+    height: 20em;
+    width: 40em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f311;
+    border-radius: 25px;
+}
+
+.header-choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+.choice-made {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.btn {
+    margin: 1em 0.5em;
+}
+
+.btn a {
+    padding: 8px 1em;
+    margin: 1em;
+    border-radius: 25px;
+}
+
+.btn-class {
+}
+
+.btn-seq {
+    background: rgb(180,130,105);
+    background: linear-gradient(90deg, rgba(180,130,105,1) 58%, rgba(255, 42, 0, 0.123) 100%);
+}
+
+.btn-seq:hover {
+    background: rgb(180,130,105);
+    background: linear-gradient(90deg, rgb(110, 74, 56) 28%, rgba(255, 42, 0, 0.123) 100%);
+}
