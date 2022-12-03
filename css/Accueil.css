@@ -56,7 +56,6 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #f3f3f311;
     border-radius: 25px;
 }
 
@@ -81,20 +80,39 @@ main {
 }
 
 .btn a {
-    padding: 8px 1em;
-    margin: 1em;
+    margin: 0 1em;
     border-radius: 25px;
 }
 
-.btn-class {
-}
-
 .btn-seq {
-    background: rgb(180,130,105);
-    background: linear-gradient(90deg, rgba(180,130,105,1) 58%, rgba(255, 42, 0, 0.123) 100%);
 }
 
-.btn-seq:hover {
-    background: rgb(180,130,105);
-    background: linear-gradient(90deg, rgb(110, 74, 56) 28%, rgba(255, 42, 0, 0.123) 100%);
+.btn-class {
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    border: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    line-height: 2.5;
+    outline: transparent;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    padding: 0 1em;
 }
+
+.btn-class:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.btn-class:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+

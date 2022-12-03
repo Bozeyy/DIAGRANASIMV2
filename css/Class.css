@@ -1,0 +1,73 @@
+html {
+    background-color: #333;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 4em;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f3f30c;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 2em;
+}
+
+header nav {
+    margin-right: 2em;
+}
+
+header nav a {
+    margin: 0 1em;
+    color: #f3f3f3;
+    text-decoration: none;
+} 
+
+
+main {
+    margin-top: 4em;
+    height: 100%;
+    display: flex;
+}
+
+
+
+.left-main {
+    padding-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 5em;
+    background-color: black;
+}
+
+#new-class {
+    font-size: 2em;
+}
+
+.main-content {
+    width: 80%;
+    position: relative;
+}
+
+.class {
+    position: absolute;
+    background-color: blue;
+    height: 3em;
+    width: 3em;
+}
+
+[draggable=true] {
+    cursor: move;
+}
+  
